@@ -83,8 +83,8 @@ def play_blackjack(): # deals cards and displays the sum of dealer and player ca
     
 print(Style.BRIGHT+Fore.BLUE+ '\n\n\n\n Hello, Welcome to Blackjack Game! Let\'s play!')
 play_blackjack()
-ui = input('\nDo you want to play again? Type y or n: ')
+ui = input('\nDo you want to play again? Type y to continue playing and n to quit the game : ')
 while ui == 'y':
     play_blackjack()
-    ui = input('\nDo you want to play again? Type y or n: ')
+    ui = input('\nDo you want to play again? Type y to continue playing and n to quit the game : ')
 print(Fore.BLUE+ '\nThanks for playing!')
